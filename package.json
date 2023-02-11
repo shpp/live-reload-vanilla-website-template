@@ -7,8 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev:assets": "webpack --watch",
-    "dev:start": "live-server --open=./public/ --host=localhost --watch=./public/",
-    "dev": "concurrently 'yarn:dev:*'",
+    "dev": "live-server --open=./public/ --host=localhost --watch=./public/",
     "build": "NODE_ENV=production webpack",
     "prepare": "npx crlf --set=LF node_modules/.bin/live-server"
   },

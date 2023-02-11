@@ -15,13 +15,13 @@ Starter template to build a website without a front-end framework but making use
 - Install dependencies
 
 ```
-yarn
+npm i
 ```
 
 - Run development server
 
 ```
-yarn dev
+npm run dev
 ```
 
 Will open your default browser to http://localhost:8080/public
@@ -31,7 +31,7 @@ Webpack will watch for changes in the `./src` directory and output the bundled a
 - Build production bundles
 
 ```
-yarn build
+npm run build
 ```
 
 Will compile, minify and autoprefix Sass to CSS. Will Minify and uglify JavaScript and output the bundled assets to `./public/assets`.
